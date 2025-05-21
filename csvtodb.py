@@ -101,3 +101,5 @@ if __name__ == "__main__":
     
     # CSV 파일을 SQLite로 변환
     csv_to_sqlite(data_folder, db_name)
+    
+    # 5/21은 여기까지!!
