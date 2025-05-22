@@ -1,0 +1,57 @@
+
+테이블: event_log
+==================================================
+  event_time (TEXT)
+  user_id (INTEGER)
+  session_id (TEXT)
+  event_type (TEXT)
+  product_id (INTEGER)
+  page (TEXT)
+  총 2500개의 행이 있습니다.
+
+테이블: products
+==================================================
+  product_id (INTEGER)
+  product_name (TEXT)
+  aisle_id (INTEGER)
+  department_id (INTEGER)
+  총 49688개의 행이 있습니다.
+
+테이블: orders
+==================================================
+  order_id (INTEGER)
+  user_id (INTEGER)
+  eval_set (TEXT)
+  order_number (INTEGER)
+  order_dow (INTEGER)
+  order_hour_of_day (INTEGER)
+  days_since_prior_order (REAL)
+  총 3421083개의 행이 있습니다.
+
+테이블: order_products__train
+==================================================
+  order_id (INTEGER)
+  product_id (INTEGER)
+  add_to_cart_order (INTEGER)
+  reordered (INTEGER)
+  총 1384617개의 행이 있습니다.
+
+테이블: departments
+==================================================
+  department_id (INTEGER)
+  department (TEXT)
+  총 21개의 행이 있습니다.
+
+테이블: aisles
+==================================================
+  aisle_id (INTEGER)
+  aisle (TEXT)
+  총 134개의 행이 있습니다.
+
+테이블: order_products__prior
+==================================================
+  order_id (INTEGER)
+  product_id (INTEGER)
+  add_to_cart_order (INTEGER)
+  reordered (INTEGER)
+  총 32434489개의 행이 있습니다.
